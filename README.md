@@ -1,18 +1,21 @@
-🌫️ Live_PM2.5_Nowcast_Forecast
+**🌫️ Live_PM2.5_Nowcast_Forecast**
 
 A real-time air quality monitoring project that fetches, analyzes, and forecasts PM2.5 (fine particulate matter) concentration using live environmental data from OpenAQ and Open-Meteo APIs.
 It combines machine learning, anomaly detection, and Streamlit visualization to help users track pollution trends and anticipate air quality changes up to 48 hours ahead.
 
-📌 Project Overview
+**📌 Project Overview**
 
 This project focuses on:
 
 🌍 Tracking live PM2.5 levels across global locations
+
 💨 Forecasting air quality for the next 24–48 hours using ML
+
 ⚠️ Detecting pollution anomalies and unusual readings
+
 📊 Displaying real-time data and predictions through a Streamlit dashboard
 
-🧠 Skills Gained
+**🧠 Skills Gained**
 
 🔗 API integration (OpenAQ, Open-Meteo)
 
@@ -28,31 +31,31 @@ This project focuses on:
 
 ✅ Data validation and quality monitoring
 
-🧩 Steps Involved
+**🧩 Steps Involved**
 
-✅ Step 1: Data Ingestion
+**✅ Step 1: Data Ingestion**
 
 Fetched live PM2.5 and weather data (temperature, humidity, wind, pressure) from OpenAQ API.
 Fallback to Open-Meteo Air Quality API for missing data.
 
-✅ Step 2: Feature Engineering
+**✅ Step 2: Feature Engineering**
 
 Created lag features, rolling means, and interaction terms.
 Filled missing values and standardized numeric features for modeling.
 
-✅ Step 3: Anomaly Detection
+**✅ Step 3: Anomaly Detection**
 
 Applied IsolationForest to identify abnormal PM2.5 readings — helpful for spotting sudden pollution spikes.
 
-✅ Step 4: Model Building
+**✅ Step 4: Model Building**
 
 Trained a Gradient Boosting Regressor to forecast PM2.5 recursively for 24–48 hours.
 
-✅ Step 5: Streamlit Dashboard
+**✅ Step 5: Streamlit Dashboard**
 
 Built an interactive interface to display live PM2.5 data, forecasts, and anomalies with user input filters for location and time horizon.
 
-📊 Sample Dashboard Features
+**📊 Sample Dashboard Features**
 
 🌫️ Current Air Quality: Displays the most recent PM2.5 reading
 
@@ -62,7 +65,7 @@ Built an interactive interface to display live PM2.5 data, forecasts, and anomal
 
 📈 Feature Importance: Displays which weather factors influence PM2.5 most
 
-🛠 Tech Stack Used
+**🛠 Tech Stack Used**
 
 ✅ Python – Data processing and model training
 
@@ -76,7 +79,7 @@ Built an interactive interface to display live PM2.5 data, forecasts, and anomal
 
 ✅ Google Colab + ngrok – Cloud-based app execution and tunneling
 
-🎯 Business Use Cases
+**🎯 Business Use Cases**
 
 🏥 Public Health Monitoring – Early alerts for pollution spikes and poor air quality days
 
@@ -88,7 +91,7 @@ Built an interactive interface to display live PM2.5 data, forecasts, and anomal
 
 ☁️ Climate Research – Analyze pollution-weather correlations
 
-🧩 Key Learnings
+**🧩 Key Learnings**
 
 ✔️ Handling real-time API data and fallback strategies
 
@@ -100,7 +103,7 @@ Built an interactive interface to display live PM2.5 data, forecasts, and anomal
 
 ✔️ Building a live interactive dashboard using Streamlit and ngrok
 
-🧾 Evaluation Metrics
+**🧾 Evaluation Metrics**
 
 📉 MAE (Mean Absolute Error) – Measures prediction accuracy
 
@@ -111,7 +114,7 @@ Built an interactive interface to display live PM2.5 data, forecasts, and anomal
 📊 Forecast Reliability – Number of valid predicted steps
 
 
-📎 References
+**📎 References**
 
 🔗 OpenAQ API
 
