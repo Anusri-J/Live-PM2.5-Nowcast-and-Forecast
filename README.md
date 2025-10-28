@@ -116,10 +116,10 @@ Built an interactive interface to display live PM2.5 data, forecasts, and anomal
 
 **📎 References**
 
-🔗 OpenAQ API
+🔗 OpenAQ API (https://api.openaq.org)
 
-🔗 Open-Meteo API
+🔗 Open-Meteo API (https://open-meteo.com/)
 
-📘 Streamlit Documentation
+📘 Streamlit Documentation (https://docs.streamlit.io/)
 
-🧠 Scikit-learn Documentation
+🧠 Scikit-learn Documentation (https://scikit-learn.org)
